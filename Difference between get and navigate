@@ -1,0 +1,8 @@
+driver.get():
+      This method is used to open a specified URL in the current browser window and it waits for the page to load completely before moving to the next statement in the code.
+      It loads a new page and waits for it to fully load before proceeding.
+driver.get("https://www.google.com")
+driver.navigate():
+       It can be used for actions like going forward or backward in the browser history, refreshing the page, or even loading a page.
+       It gives you more control over the browser's history like refresh the page,move backward,forward.
+drive.navigate().to("https://www.google.com")
